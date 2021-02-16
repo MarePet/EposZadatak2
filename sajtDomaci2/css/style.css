@@ -1,0 +1,516 @@
+*{
+
+font-family: monospace;
+
+}
+.flex-roditelj{
+    padding-left: 3%;
+    display: flex;
+    background:#c5a880;
+    color: #0f0f0f;
+    height: 5em;
+    font-family: sans-serif;
+    position: relative;
+    top: 0;
+
+}
+body{
+background-color: #e6e6e6; 
+}
+.a-text{
+  height: 80px;
+  width: 65px;
+  line-height: 4.5;
+  text-align: center;
+  border: 2px dashed #f69c55;
+  font-size: large;
+}
+.flex-roditelj>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 3;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right:5%;
+}
+.flex-roditelj>ul>li{
+    margin: 0;
+    height: 4em;
+  
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.flex-roditelj>ul>li :hover{
+    background-color:#f69c55;
+    padding: 1px;
+    border: 2px dashed #f58e40;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.flex-roditelj>h1{
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+.navBar-text{
+    color:#682c0e;
+}
+body {
+    margin: 0;
+}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  width: 100%; 
+  height: 100%;
+  flex:0.5;
+  
+}
+
+
+.mySlides {
+  display: none;
+  
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #c5a880;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  box-shadow: 2px 2px grey;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#slide1{
+    display: block;
+}
+.slideshow-container{
+    display: flex;
+    margin-top:2%;
+    
+}
+
+.flex-opis-parent{
+  display: flex;
+  flex:1;
+  margin:2%;
+  background-color:#c5a880;
+  box-shadow: 2px 2px grey;
+  
+}
+.flex-opis-parent>p{
+  
+  margin: inherit;
+  border-radius: 15px;
+  text-align: center;
+  font-size: x-large;
+}
+#map {
+  height: 500px;
+ 
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  margin:2%;
+}
+
+.footer{
+  display: flex;
+  min-height: 10vh;
+  flex-direction: column;
+  background-color: #c5a880;
+  width: 100%;
+  align-items:center;
+}
+.footer>ul{
+  list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+.footer>ul>li{
+  margin: 0;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  flex:0.33;
+}
+
+/* forma */
+
+.container-contact {
+  background: linear-gradient(to right, #f69c5500 50%, #ffffff 50%), url(C:/Users/Marko/xampp/htdocs/sajtDomaci2/img/1.jpg);
+  width: 40%;
+  height: 500px;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+}
+.container {
+  background: linear-gradient(to right, #f69c5500 50%, #ffffff 50%), url(C:/Users/Marko/xampp/htdocs/sajtDomaci2/img/1.jpg);
+  width: 40%;
+  height: 500px;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+}
+
+.user img {
+  width: 150px;
+  height: 150px;
+}
+
+.user {
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  background: #ffffff;
+  transform: translate(-50%, -100%);
+  left: 50%;
+}
+
+.input-field {
+  margin: 20px 0px;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #d3d3d3;
+  box-shadow: none;
+  color: #b39d9d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+form {
+  margin: 90px 50px;
+  width: 100%;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+button {
+  background: blueviolet;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+span {
+  background: #fbfbfb;
+  box-shadow: 0 2px 5px #00000052;
+  padding: 5px;
+  line-height: 2;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.dialog {
+  transition: 0.2s all;
+  color: red;
+}
+
+@media(max-width: 768px) {
+  .left {
+      display: none;
+  }
+
+  .form-wrapper {
+      width: 100%;
+  }
+
+  form {
+      width: 80%;
+  }
+
+  .container {
+      width: 90%;
+      height: 60vh;
+      background: white;
+  }
+
+  .right {
+      width: 100%;
+      margin-top: 50px;
+  }
+}
+.flex-opis-parent-about{
+  display: flex;
+  flex:1;
+  margin:2%;
+  background-color:#c5a880;
+  box-shadow: 2px 2px grey;
+  
+}
+.flex-opis-parent-about>p{
+  
+  margin: inherit;
+  border-radius: 15px;
+  text-align: center;
+  font-size: x-large;
+  display: block;
+}
+
+
+/*---------------Galerija---------------*/
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --line-offset: calc((10vh + 8px) / 2);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    background: #021919;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.tab {
+    width: calc(10vh + 8px);
+    height: calc(10vh + 8px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    shape-outside: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    z-index: 0;
+    transition: width 0.5s;
+}
+
+.tab img {
+    width: 10vh;
+    height: 10vh;
+    z-index: 10;
+    cursor: pointer;
+    clip-path: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    shape-outside: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    transition: width 0.5s;
+}
+
+[type=radio] {
+    display: none;   
+}
+
+.preview-list {
+    background: linear-gradient(
+        #021919,
+        #021919 var(--line-offset),
+        #efefef var(--line-offset)
+    );
+}
+
+.tab {
+    background: linear-gradient(
+        #efefef,
+        #efefef var(--line-offset),
+        #021919 var(--line-offset)
+    );
+}
+
+[type=radio]:checked ~ label ~ .content{
+    text-align: center;
+    z-index: 8;
+}
+
+
+[type=radio]:checked ~ label .tab{
+    width: 0;
+}
+
+.content {
+    position: absolute;
+    background: #021919;
+    top: 1vh;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    height: auto;
+    width: 100vw;  
+}
+.flex-opis-parent-galerija{
+  display: flex;
+  flex:1;
+  margin-top:2%;
+  background-color:#c5a880;
+  box-shadow: 2px 2px grey;
+}
+.flex-opis-parent-galerija>p{
+  
+  margin: 2%;
+  border-radius: 15px;
+  text-align: center;
+  font-size: xx-large;
+  width: 100%;
+  font-weight: bold;
+}
+
+
+
+.flex-opis-about{
+  display: flex;
+  flex:1;
+  margin:2%;
+  background-color:#c5a880;
+  box-shadow: 2px 2px grey;
+  font-size: larger;
+  
+  
+}
+
+.flex-opis-about>p{
+  display: flex;
+  flex:1;
+  text-align: center;
+  font-size: larger;
+
+}
